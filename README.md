@@ -4,7 +4,7 @@ Access client storage
 
 ## Installation
 
-Use the package manager [npm](https://pip.pypa.io/en/stable/) to install es-storage.
+Use the package manager [npm](https://nodejs.org/en/download/) to install es-storage.
 
 ```bash
 npm install @akinolu52/es-storage
