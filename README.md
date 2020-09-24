@@ -7,13 +7,13 @@ Access client storage
 Use the package manager [npm](https://nodejs.org/en/download/) to install es-storage.
 
 ```bash
-npm install @akinolu52/es-storage
+npm install es-storage
 ```
 
 ## Usage
 
 ```javascript
-import { localStorage, sessionStorage } from '@akinolu52/es-storage';
+import { localStorage, sessionStorage } from 'es-storage';
 
 
 sessionStorage.set('key', null)
