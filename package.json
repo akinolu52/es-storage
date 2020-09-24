@@ -29,7 +29,7 @@
     "web-storage"
   ],
   "author": "Akinyemi Olumide Emmanuel",
-  "license": "ISC",
+  "license": "GNU",
   "bugs": {
     "url": "https://github.com/akinolu52/es-storage/issues"
   },
