@@ -1,6 +1,6 @@
 {
   "name": "es-storage",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A package to help developers access client side storage",
   "main": "index.js",
   "scripts": {
