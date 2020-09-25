@@ -27,7 +27,7 @@ sessionStorage.get('key') # returns 'value'
 sessionStorage.setObject('details', null)
 sessionStorage.getObject('details') # returns null
 //passing an default value to be returned when then the value is not found
-sessionStorage.getObject('details', 'default-value') # returns 'default-value'
+sessionStorage.getObject('details', { key: 'x', value: 'y' }) # returns { key: 'x', value: 'y' }
 
 sessionStorage.clear()  # this will clear all the data on the sessionstorage
 sessionStorage.remove('key') # this will delete the key from the sessionstorage
@@ -44,7 +44,7 @@ localStorage.get('key') # returns 'value'
 localStorage.setObject('details', null)
 localStorage.getObject('details') # returns null
 //passing an default value to be returned when then the value is not found
-localStorage.getObject('details', 'default-value') # returns 'default-value'
+localStorage.getObject('details', { key: 'x', value: 'y' }) # returns { key: 'x', value: 'y' }
 
 localStorage.clear()  # this will clear all the data on the localstorage
 localStorage.remove('key') # this will delete the key from the localstorage
