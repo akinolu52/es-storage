@@ -1,9 +1,11 @@
 {
   "name": "es-storage",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A package to help developers access client side storage",
-  "main": "index.js",
+  "typings": "typings.d.ts",
+  "main": "src/index.js",
   "scripts": {
+    "typings": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -32,5 +34,8 @@
   "bugs": {
     "url": "https://github.com/akinolu52/es-storage/issues"
   },
-  "homepage": "https://github.com/akinolu52/es-storage#readme"
+  "homepage": "https://github.com/akinolu52/es-storage#readme",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
 }
