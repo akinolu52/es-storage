@@ -51,6 +51,10 @@ localStorage.remove('key') # this will delete the key from the localstorage
 
 ```
 
+## Usage
+
+it'll return false if localStorage or sessionStorage is not available
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
