@@ -1,46 +1,46 @@
 const localStorage = {
     set: function (key, value) {
-        window.localStorage[key] = value;
-        return window.localStorage[key];
+        window?.localStorage[key] = value;
+        return window?.localStorage[key];
     },
     get: function (key, defaultValue= null) {
-        return window.localStorage[key] || defaultValue;
+        return window?.localStorage[key] || defaultValue;
     },
     setObject: function (key, value) {
-        window.localStorage[key] = JSON.stringify(value);
-        return window.localStorage[key];
+        window?.localStorage[key] = JSON.stringify(value);
+        return window?.localStorage[key];
     },
     getObject: function (key, defaultValue= null) {
-        return JSON.parse(window.localStorage[key] || defaultValue || '{}');
+        return JSON.parse(window?.localStorage[key] || defaultValue || '{}');
     },
     clear: function () {
-        return window.localStorage.clear();
+        return window?.localStorage.clear();
     },
     remove: function (key) {
-        return window.localStorage.removeItem(key);
+        return window?.localStorage.removeItem(key);
     }
 };
 
 const sessionStorage = {
     set: function (key, value) {
-        window.sessionStorage[key] = value;
-        return window.sessionStorage[key];
+        window?.sessionStorage[key] = value;
+        return window?.sessionStorage[key];
     },
     get: function (key, defaultValue= null) {
-        return window.sessionStorage[key] || defaultValue;
+        return window?.sessionStorage[key] || defaultValue;
     },
     setObject: function (key, value) {
-        window.sessionStorage[key] = JSON.stringify(value);
-        return window.sessionStorage[key];
+        window?.sessionStorage[key] = JSON.stringify(value);
+        return window?.sessionStorage[key];
     },
     getObject: function (key, defaultValue= null) {
-        return JSON.parse(window.sessionStorage[key] || defaultValue || '{}');
+        return JSON.parse(window?.sessionStorage[key] || defaultValue || '{}');
     },
     clear: function () {
-        return window.sessionStorage.clear();
+        return window?.sessionStorage.clear();
     },
     remove: function (key) {
-        return window.sessionStorage.removeItem(key);
+        return window?.sessionStorage.removeItem(key);
     }
 };
 
