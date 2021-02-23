@@ -81,7 +81,8 @@ const sessionStorage = {
     },
     setObject: function (key, value) {
         if (sessionStorageCheck) {
-            return window.sessionStorage[key] || defaultValue;
+            window.sessionStorage[key] = JSON.stringify(value);
+            return window.sessionStorage[key];
         } else {
             return sessionStorageCheck;
         }

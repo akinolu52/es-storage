@@ -1,6 +1,6 @@
 {
   "name": "es-storage",
-  "version": "1.0.9",
+  "version": "1.1.1",
   "description": "A package to help developers access client side storage",
   "typings": "typings.d.ts",
   "main": "src/index.js",
